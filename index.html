@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,33 +10,59 @@
 </head>
 <body>
     <header>
-        <nav role="presentation">
+        <div class="page-title">
+            Welcome to my Portfolio
+        </div>
+        <div class="container">
+        <nav class="breadcrumb">
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#footer">Footer</a></li>
-                </ul> 
+                <li class="location"><a href="#footer">Footer</a></li>
+                <li class="location"><a href="#projects">Projects</a></li>
+                <li class="location"><a href="#about">About Me</a></li>
+                </ul>
+            </div>
     </header>
 
     
 
-    <div class="container">
+    <div class="container" class="page-description">
         <h1 id="about">About Me</h1>
-        <P>Hello, my name is Elijah Bates. I am currently learning codeing through Codecadamy. I have so far learned about HTML, CSS, JavaScript, and Git. </P>
+        <P>Hello, my name is Elijah Bates. I am currently learning codeing through Codecadamy. I have so far learned about HTML, CSS, JavaScript, and Git. When im not learning coding, I tend to have fun doing my hobbies. those hobbies inclues, gameing, building with legos, art, or working on model kits.</P>
     </div>
-
-      <div class="container">
-        <h2 id="projects">Projects</h2>
-        <ul>
-            <li>Form a Story</li>
-            <li>Piano Keys</li>
-            <li>Mixed Messages</li>
-            <li>Number Geusser</li>
-        </ul>
-    </div>
-
+    <br/>
+    <br/>
+    <h2 id="projects">Projects</h2>
+        <div class="container" id="grid">
+            <div class='box'>
+                <p>Number Geusser: A game you can play aginst the computer. Where you and the computer pick random Numbers with the closest one winning.</p>
+            </div>
+            <div class='box'>
+                <p>Form a Story: You can modify the story The Tortoise and the Hare by using html forms.</p>
+            </div>
+            <div class='box'>
+                <p>Piano Keys: you can lern to play Happy Birthday on a vertual piano.</p>
+            </div>
+            <div class='box'>
+                <p>Mixed Messages: a program that allows you to make random Messages.</p>
+            </div>
+        </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <div class="container">
-        <h3 id="footer">Footer</h3>
+        <h3 id="footer">Contact</h3>
         <a href="elijah.bates@yahoo.com">elijah.bates@yahoo.com</a>
     </div>
 
